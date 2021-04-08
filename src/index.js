@@ -29,6 +29,7 @@ import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
+import LoginRegistro from "components/Login/LoginRegistro.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -49,6 +50,11 @@ ReactDOM.render(
         path="/register-page"
         exact
         render={props => <Register {...props} />}
+      />
+       <Route
+      path="/login"
+      exact
+      render={ props => <LoginRegistro {...props}/>}
       />
       <Redirect to="/" />
     </Switch>
