@@ -1,6 +1,5 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 import "../../assets/css/contact.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 
@@ -33,7 +32,7 @@ class Contact extends React.Component {
           <div id="fh5co-contact" classnames="fh5co-contact-outer container-fluid">
             <Container>
               <div className="text-center m-3">
-                <h1>CONTÁCTANOS</h1>
+                <h1>CONTÁCTENOS</h1>
               </div>              
               <hr/>
               <Row classnames="p-3">
@@ -42,7 +41,7 @@ class Contact extends React.Component {
                     <Row classnames="text-center">
                       <Col lg="6" classnames="mb-2">
                         <FormGroup classnames="form-group">
-                          <i className="fa fa-user"/>
+                          <i className="fa fa-user-alt"/>
                           <Input type="text" classnames="form-control-alternative" placeholder="Ingrese su nombre"/>
                         </FormGroup>                        
                       </Col>
@@ -55,13 +54,13 @@ class Contact extends React.Component {
                     </Row>
                     <div classnames="form-group mt-2">
                       <FormGroup classnames="form-group">
-                        <i className="fa fa-pencil-alt"/>
+                        <i className="fa fa-pen-alt"/>
                         <Input type="text" classnames="form-control" placeholder="Ingrese su asunto"/>
                       </FormGroup>
                     </div>
                     <div classnames="form-group mt-2">
                       <FormGroup classnames="form-group">
-                        <Input type="text" id="textarea" classnames="form-control-alternative md-textarea" placeholder="Redacte su mensaje"></Input>
+                        <Input type="textarea" id="textarea" classnames="form-control-alternative md-textarea" placeholder="Redacte su mensaje"></Input>
                       </FormGroup>                      
                     </div>
                       <Button type="submit" classnames="button" value="Enviar">Enviar</Button>
@@ -71,9 +70,9 @@ class Contact extends React.Component {
                   <center>
                     <img src="https://res.cloudinary.com/dyfo5owv8/image/upload/v1617633139/samples/breviLogo_uc4giz.png" alt=""/>
                     <Row id="row">
-                      <i className="fa fa-envelope"/>
-                      <p>(054) 426610</p>
                       <i className="fa fa-phone"/>
+                      <p>(054) 426610</p>
+                      <i className="fa fa-envelope"/>
                       <p>brevi@gmail.com</p>
                     </Row>
                   </center>                  
