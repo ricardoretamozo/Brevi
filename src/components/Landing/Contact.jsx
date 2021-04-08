@@ -2,7 +2,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import "../../assets/css/contact.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
-
+import Footer from "components/Landing/footer"
 // reactstrap components
 import {
   Button,
@@ -13,7 +13,7 @@ import {
   Col
 } from "reactstrap";
 
-
+import NavBar from "components/Landing/NavBar";
 
 class Contact extends React.Component {
   state = {};
@@ -25,7 +25,7 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-        
+        <NavBar />
         <main ref="main">
 
           {/* Contactanos */}
@@ -77,16 +77,19 @@ class Contact extends React.Component {
                     </Row>
                   </center>                  
                 </Col>
-              </Row>              
+                
+              </Row>  
+              <div id="espacio"> </div>            
             </Container>
             
-            
+           
           </div>
+          
           {/* End Contactanos */}
 
         </main>
-
         
+        <Footer/>
       </>
     );
   }

@@ -3,7 +3,8 @@ import React from "react";
 import classnames from "classnames";
 import "../../assets/css/home.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
-
+import NavBar from "components/Landing/NavBar";
+import Footer from "components/Landing/footer"
 // reactstrap components
 import {
    Button,
@@ -17,6 +18,7 @@ class Home extends React.Component {
   render() {
     return (
         <>
+        <NavBar />
     <div className="mb-5 masthead">  
             <Container className="pt-5 h-100">
                 <Row className="h-100">  
@@ -32,6 +34,7 @@ class Home extends React.Component {
             </Row>
         </Container>  
     </div> 
+    <Footer/>
           </>
         
 

@@ -5,7 +5,8 @@ import "assets/vendor/bootstrap/bootstrap.css";
 import f1 from "assets/img/theme/features/f1.jpg";
 import f2 from "assets/img/theme/features/f2.jpg";
 import f3 from "assets/img/theme/features/f3.jpg";
-
+import NavBar from "components/Landing/NavBar";
+import Footer from "components/Landing/footer"
 import {
     Container,
 } from "reactstrap";
@@ -20,6 +21,7 @@ class Features extends React.Component {
     render() {
         return (
             <>
+            <NavBar />
                 <main ref="main">
                     <div id="fh5co-features" className="fh5co-features-outer">
                         <Container>
@@ -71,6 +73,7 @@ class Features extends React.Component {
                         </Container>
                     </div>
                 </main>
+                <Footer/>
             </>
         );
     }

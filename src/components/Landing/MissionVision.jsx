@@ -4,7 +4,8 @@ import "assets/vendor/animate/animate.css";
 import "assets/vendor/bootstrap/bootstrap.css";
 import q1 from "../../assets/img/theme/missionVision/quotes-1.jpg";
 import q2 from "../../assets/img/theme/missionVision/quotes-2.jpg";
-
+import NavBar from "components/Landing/NavBar";
+import Footer from "components/Landing/footer"
 import {
     Container,
     Row,
@@ -20,7 +21,8 @@ class MissionVision extends React.Component {
     }
     render() {
         return (
-            <>       
+            <>      
+            <NavBar /> 
                 <main ref="main">
                     <div id="fh5co-reviews-outer" classnames="fh5co-reviews-outer container-fluid">
                         <Container>
@@ -47,7 +49,9 @@ class MissionVision extends React.Component {
                             </div>
                         </Container>                   
                     </div>
-                </main>    
+                </main>   
+                <p id="espacio"></p>
+                <Footer/>
             </>
         );
     }
