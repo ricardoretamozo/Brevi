@@ -4,22 +4,21 @@ import imagen2 from "../../assets/img/img-login/girl-ubication.svg";
 import "../../assets/css/LoginRegistro.css";
 class LoginRegistro extends React.Component{
     handleTabClick = function() {
-        const container = document.querySelector(".container");
+        const container = document.querySelector(".container1");
         container.classList.add("sign-up-mode");
       }
     handleTabClickSI = function(){
-        const container = document.querySelector(".container");
+        const container = document.querySelector(".container1");
         container.classList.remove("sign-up-mode");
 
     }
 render(){
     return(
-         
-        <div className="container">
+        <div className="container1">
             <div className="forms-container">
                 <div className="signin-signup">
-                    <form action="" className="sign-in-form">
-                        <h2 className="title">
+                    <form action="" className="sign-in-form formulario">
+                        <h2 className="title titulo">
                             Bienvenido
                         </h2>
                         <div className="input-field">
@@ -30,7 +29,7 @@ render(){
                              <i className="fas fa-user"></i>
                              <input type="password" placeholder="Contraseña" />
                         </div>
-                        <input type="submit" name="" id="" value="Login" className="btn solid"/>
+                        <input type="submit" name="" id="" value="Login" className="btn btn1 solid"/>
 
                         <p className="social-text">
                             O logueate con una Red Social
@@ -50,7 +49,7 @@ render(){
                             </a>
                         </div>
                     </form>
-                    <form action="" className="sign-up-form">
+                    <form action="" className="sign-up-form formulario">
                             <h2 className="title">
                                 Registrarse
                             </h2>
@@ -66,7 +65,7 @@ render(){
                                  <i className="fas fa-user"></i>
                                  <input type="password" placeholder="Contraseña" />
                             </div>
-                            <input type="submit" name="" id="" value="Registrarse" className="btn solid"/>
+                            <input type="submit" name="" id="" value="Registrarse" className="btn btn1 solid"/>
 
                             <p className="social-text">
                                 O logueate con una Red Social
@@ -91,17 +90,17 @@ render(){
             <div className="panels-container">
                 <div className="panel left-panel">
                     <div className="content">
-                        <h3>Nuevo en Brevi?</h3>
+                        <h3 className="titulo">Nuevo en Brevi?</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui.</p>
-                        <button className="btn transparent" id="sign-up-btn" onClick={this.handleTabClick}>Registrarse</button>
+                        <button className="btn btn1 transparent" id="sign-up-btn" onClick={this.handleTabClick}>Registrarse</button>
                     </div>
                     <img src={imagen2} className="image" alt=""/>
                 </div>
                 <div className="panel right-panel">
                     <div className="content">
-                        <h3>Que esperas!!</h3>
+                        <h3 className="titulo">Que esperas!!</h3>
                         <p>Ingresa y vive la gran experiencia con Brevi</p>
-                        <button className="btn transparent" id="sign-in-btn" onClick={this.handleTabClickSI}>Loguearse</button>
+                        <button className="btn btn1 transparent" id="sign-in-btn" onClick={this.handleTabClickSI}>Loguearse</button>
                     </div>
                     <img  src={imagen} className="image" alt=""/>
                 </div>
