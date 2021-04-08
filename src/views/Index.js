@@ -26,11 +26,21 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 
 //Index componentes
 import Contact from "components/Landing/Contact.jsx";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 36b17ef8c37f65920a649215514796ba2de3246f
 import MissionVision from "components/Landing/MissionVision.jsx";
 import Features from "components/Landing/Features.jsx";
 
 
+<<<<<<< HEAD
+=======
+import Home from "components/Landing/Home.jsx";
+import MissionVision from "components/Landing/MissionVision.jsx";
+import Features from "components/Landing/Features.jsx";
+
+>>>>>>> 36b17ef8c37f65920a649215514796ba2de3246f
 import Home from "components/Landing/Home.jsx";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
@@ -63,7 +73,11 @@ class Index extends React.Component {
   render() {
     return (
       <>
+<<<<<<< HEAD
           <main ref="main">
+=======
+        <main ref="main">
+>>>>>>> 36b17ef8c37f65920a649215514796ba2de3246f
           {/* Contact */}
           <Home />
           <Contact />
@@ -103,7 +117,11 @@ class Index extends React.Component {
           <Login />
           <Download /> */}
         </main>
+<<<<<<< HEAD
               </>
+=======
+      </>
+>>>>>>> 36b17ef8c37f65920a649215514796ba2de3246f
     );
   }
 }
