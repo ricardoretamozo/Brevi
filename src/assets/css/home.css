@@ -5,7 +5,7 @@
     width: 100%;
     padding-top: 60px;
     text-align: center;
-   
+ 
  
   }
   
@@ -13,7 +13,7 @@
     max-width: 500px;
     text-align: center;
   }
-  
+ 
   .masthead .header-content h1 {
     font-size: 30px;
     color: black;
@@ -30,7 +30,7 @@
 }
   @media (min-width: 992px) {
     .masthead {
-      height: 100vh;
+      height: auto;
       min-height: 775px;
       padding-top: 0;
       padding-bottom: 0;

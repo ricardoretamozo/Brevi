@@ -26,13 +26,12 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 
 //Index componentes
 import Contact from "components/Landing/Contact.jsx";
-<<<<<<< HEAD
+
 import MissionVision from "components/Landing/MissionVision.jsx";
 import Features from "components/Landing/Features.jsx";
 
-=======
+
 import Home from "components/Landing/Home.jsx";
->>>>>>> 85fd3c140479c73afa70950ba2b086559ebbb675
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 import Buttons from "./IndexSections/Buttons.js";
@@ -64,11 +63,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-<<<<<<< HEAD
-=======
-   
->>>>>>> 85fd3c140479c73afa70950ba2b086559ebbb675
-        <main ref="main">
+          <main ref="main">
           {/* Contact */}
           <Home />
           <Contact />
@@ -108,11 +103,7 @@ class Index extends React.Component {
           <Login />
           <Download /> */}
         </main>
-<<<<<<< HEAD
-=======
-   
->>>>>>> 85fd3c140479c73afa70950ba2b086559ebbb675
-      </>
+              </>
     );
   }
 }
