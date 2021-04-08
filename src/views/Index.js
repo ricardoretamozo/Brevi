@@ -29,6 +29,8 @@ import Contact from "components/Landing/Contact.jsx";
 import MissionVision from "components/Landing/MissionVision.jsx";
 import Features from "components/Landing/Features.jsx";
 
+
+import Home from "components/Landing/Home.jsx";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 import Buttons from "./IndexSections/Buttons.js";
@@ -62,6 +64,7 @@ class Index extends React.Component {
       <>
         <main ref="main">
           {/* Contact */}
+          <Home />
           <Contact />
           {/* End Contact */}
 
