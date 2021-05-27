@@ -22,87 +22,32 @@ render(){
                             Bienvenido
                         </h2>
                         <div className="input-field">
-                            <i className="fas fa-user"></i>
-                            <input type="text" placeholder="Usuario" />
+                            <i className="fas fa-envelope"></i>
+                            <input type="text" placeholder="Ingrese su correo electrónico" />
                         </div>
                         <div className="input-field">
-                             <i className="fas fa-user"></i>
-                             <input type="password" placeholder="Contraseña" />
+                             <i className="fas fa-lock"></i>
+                             <input type="password" placeholder="Ingrese su contraseña" />
                         </div>
                         <input type="submit" name="" id="" value="Login" className="btn btn1 solid"/>
-
                         <p className="social-text">
-                            O logueate con una Red Social
+                            O inicie sesión directamente desde Google
                         </p>
                         <div className="social-media">
                             <a href="#" className="social-icon">
-                            <i className="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" className="social-icon">
-                            <i className="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" className="social-icon">
                             <i className="fab fa-google"></i>
                             </a>
-                            <a href="#" className="social-icon">
-                            <i className="fab fa-linkedin-in"></i>
-                            </a>
                         </div>
-                    </form>
-                    <form action="" className="sign-up-form formulario">
-                            <h2 className="title">
-                                Registrarse
-                            </h2>
-                            <div className="input-field">
-                                <i className="fas fa-user"></i>
-                                <input type="text" placeholder="Usuario" />
-                            </div>
-                            <div className="input-field">
-                                <i className="fas fa-envelope"></i>
-                                <input type="text" placeholder="Email" />
-                            </div>
-                            <div className="input-field">
-                                 <i className="fas fa-user"></i>
-                                 <input type="password" placeholder="Contraseña" />
-                            </div>
-                            <input type="submit" name="" id="" value="Registrarse" className="btn btn1 solid"/>
-
-                            <p className="social-text">
-                                O logueate con una Red Social
-                            </p>
-                            <div className="social-media">
-                                <a href="#" className="social-icon">
-                                <i className="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" className="social-icon">
-                                <i className="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" className="social-icon">
-                                <i className="fab fa-google"></i>
-                                </a>
-                                <a href="#" className="social-icon">
-                                <i className="fab fa-linkedin-in"></i>
-                                </a>
-                        </div>
-                    </form>
+                    </form>                    
                 </div>
             </div>
             <div className="panels-container">
                 <div className="panel left-panel">
                     <div className="content">
-                        <h3 className="titulo">Nuevo en Brevi?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui.</p>
-                        <button className="btn btn1 transparent" id="sign-up-btn" onClick={this.handleTabClick}>Registrarse</button>
+                        <p>Para comenzar debe iniciar sesión con sus credenciales o contáctenos para habilitar una cuenta a su empresa.</p>
+                        <p><b>(054) 426610 | brevi@gmail.com</b></p>
                     </div>
                     <img src={imagen2} className="image" alt=""/>
-                </div>
-                <div className="panel right-panel">
-                    <div className="content">
-                        <h3 className="titulo">Que esperas!!</h3>
-                        <p>Ingresa y vive la gran experiencia con Brevi</p>
-                        <button className="btn btn1 transparent" id="sign-in-btn" onClick={this.handleTabClickSI}>Loguearse</button>
-                    </div>
-                    <img  src={imagen} className="image" alt=""/>
                 </div>
             </div>
         </div>
